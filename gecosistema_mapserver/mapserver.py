@@ -234,7 +234,7 @@ def renderer_v2(geomtype="POINT"):
                             {"k": "customdash_unit", "v": "MM"},
                             {"k": "draw_inside_polygon", "v": 0},
                             {"k": "joinstyle", "v": "bevel"},
-                            {"k": "line_color", "v": [randint(255), randint(255), randint(255), 255]},
+                            {"k": "line_color", "v": [randint(0,255), randint(0,255), randint(0,255), 255]},
                             {"k": "line_style", "v": "solid"},
                             {"k": "line_width", "v": 0.26},
                             {"k": "line_width_unit", "v": "MM"},
