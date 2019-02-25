@@ -26,6 +26,7 @@ from gecosistema_core import *
 import gdal, gdalconst
 import osr, ogr
 import numpy as np
+from random import randint
 
 # TYPE [chart|circle|line|point|polygon|raster|query]
 GEOMETRY_TYPE = {
