@@ -185,7 +185,7 @@ def renderer_v2(geomtype="POINT"):
                         "locked": 0,
                         "prop": [
                             {"k": "angle", "v": 0},
-                            {"k": "color", "v": [randint(255), randint(255), randint(255), 255]},
+                            {"k": "color", "v": [randint(0,255), randint(0,255), randint(0,255), 255]},
                             {"k": "horizontal_anchor_point", "v": 1},
                             {"k": "joinstyle", "v": "bevel"},
                             {"k": "name", "v": "circle"},
@@ -270,7 +270,7 @@ def renderer_v2(geomtype="POINT"):
                         "locked": 0,
                         "prop": [
                             {"k": "border_width_map_unit_scale", "v": [0, 0, 0, 0, 0, 0]},
-                            {"k": "color", "v": [randint(255), randint(255), randint(255), 75]},
+                            {"k": "color", "v": [randint(0,255), randint(0,255), randint(0,255), 75]},
                             {"k": "joinstyle", "v": "bevel"},
                             {"k": "offset", "v": 0},
                             {"k": "offset_map_unit_scale", "v": [0, 0, 0, 0, 0, 0]},
